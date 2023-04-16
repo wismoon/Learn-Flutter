@@ -19,13 +19,13 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          
           children: [
+            
               SwitchListTile(
-                
                 activeColor: Colors.green[400],
                 inactiveThumbColor: Colors.red[400],
-            
+        
                 value: StatusSwitch, 
                 onChanged: ((value) {
                   setState(() {

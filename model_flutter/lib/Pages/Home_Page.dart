@@ -50,7 +50,7 @@ class Homepage extends StatelessWidget {
                   Text("Rp ${DummyData[index].harga}", style: TextStyle(color: Colors.white),),
                   Text(
                     DummyData[index].deskripsi,
-                    maxLines: 2,
+                    maxLines: 1,
                     style: TextStyle(
                       color: Colors.white
                     ),),
